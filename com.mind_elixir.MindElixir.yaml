@@ -47,6 +47,6 @@ modules:
         path: mind-elixir-wrapper.sh
 
       - type: file
-        url: https://github.com/SSShooter/Mind-Elixir-Desktop-Release/releases/download/v1.11.2/Mind.Elixir_1.11.2_amd64.deb
-        sha256: 015f91571a3f7366666177240394df085c5dd864f70c402aa8fa589964e9b3b8
+        url: https://github.com/SSShooter/Mind-Elixir-App-Release/releases/download/v1.11.3/Mind.Elixir_1.11.3_amd64.deb
+        sha256: 91dd0b11cb48a82659ffefa50054108b61e47b37891f793f7bb5b83f0f7498be
         only-arches: [x86_64]
