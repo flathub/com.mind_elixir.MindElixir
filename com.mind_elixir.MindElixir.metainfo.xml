@@ -20,9 +20,9 @@
   </description>
 
   <launchable type="desktop-id">com.mind_elixir.MindElixir.desktop</launchable>
-  <url type="homepage">https://mind-elixir.com</url>
-  <url type="bugtracker">https://github.com/SSShooter/Mind-Elixir-Desktop-Release/issues</url>
-  <url type="help">https://mind-elixir.com</url>
+  <url type="homepage">https://app.mind-elixir.com</url>
+  <url type="bugtracker">https://github.com/SSShooter/Mind-Elixir-App-Release/issues</url>
+  <url type="help">https://app.mind-elixir.com</url>
 
   <developer id="com.mind_elixir">
     <name>Time Record</name>
@@ -47,7 +47,22 @@
     </screenshot>
   </screenshots>
 
+  <branding>
+    <color type="primary" scheme_preference="light">#a3c7f4</color>
+    <color type="primary" scheme_preference="dark">#154278</color>
+  </branding>
+
   <releases>
+    <release version="1.11.3" date="2026-10-25">
+      <description>
+        <p>Features and improvements in v1.11.3:</p>
+        <ul>
+          <li>Arabic Language &amp; RTL Support: Added Arabic language support with full right-to-left layout, including mirrored navigation icons and localized search result messages</li>
+          <li>Markdown Import: Import mind maps directly from Markdown files or paste Markdown text from clipboard</li>
+          <li>Visual Polish: Fixed dialog and sheet overlay backgrounds appearing too opaque in light mode</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.11.2" date="2026-10-10">
       <description>
         <p>Latest stable release with performance enhancements and bug fixes.</p>
